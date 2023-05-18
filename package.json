@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3333",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -13,8 +13,20 @@
     "@types/react": "18.2.5",
     "@types/react-dom": "18.2.3",
     "next": "13.4.1",
+    "polished": "^4.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "socket.io-client": "^4.6.1",
+    "styled-components": "^5.3.10",
+    "typescript": "5.0.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/socket.io-client": "^3.0.0",
+    "@types/styled-components": "^5.1.26",
+    "@types/uuid": "^9.0.1"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   }
 }
